@@ -1,0 +1,19 @@
+/**
+全局样式
+*/
+@import './icon.less';
+
+.body {
+  background-color: #f5f7f9;
+}
+
+// CSS 样式：后者覆盖前者
+.app-nav-bar {
+    background-color: #3296fa;
+    .van-nav-bar__title {
+        color: #fff;
+    }
+    .van-icon {
+      color: #fff;
+    }
+}
